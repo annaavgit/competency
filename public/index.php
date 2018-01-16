@@ -80,3 +80,4 @@ $app->get('/profession', function (Request $request, Response $response) {
 });
 
 $app->run();
+'hello world'

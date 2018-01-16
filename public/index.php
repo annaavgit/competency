@@ -10,7 +10,7 @@ use Slim\Http\Request;
 use Slim\Http\Response;
 use Spot\Config;
 use Spot\Locator;
-echo "Hello World!";
+
 $settings = [
     'mysql_dsn'      => getenv('MYSQL_DSN'),
     'mailgun_key'    => getenv('MAILGUN_KEY'),
